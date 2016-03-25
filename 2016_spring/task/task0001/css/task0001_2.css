@@ -1,16 +1,23 @@
-body,h1,h2,h3,h4,h5,h6,img,ul,li,dl,dd,input{margin:0;padding:0;list-style: none;}
+body,h1,h2,h3,h4,h5,h6,img,ul,li,dl,dd,input,p{margin:0;padding:0;list-style: none;}
 body{background:#ccc;}
 .block{
 	margin:20px;
-	padding:10px;
+	padding:30px 15px;
 	background:#fff;
 	box-shadow: 2px 2px 0 #ddd;
 }
-
-
-
-
-
+.two-level-title{
+	color:#666;
+	font-weight:normal;
+	margin:20px 0 10px;
+}
+.author-time{color:#666;}
+.article{text-indent:32px;line-height:24px;}
+.img{margin:15px 0;}
+.list{overflow:hidden;margin-left:20px;}
+.list li{}
+.pic-list tr{overflow: hidden;}
+.pic-list td{float:left;}
 
 
 
